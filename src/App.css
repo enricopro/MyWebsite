@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+.App {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body {
+  background-color: rgb(34 34 34);
+}
+.HeaderContainer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0 !important;
+}
+.HeaderItem {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.HeaderText {
+  color: #fff;
+  font-family: 'Source Code Pro', monospace !important; 
+  text-decoration: none;
+}
+.HeaderText:hover {
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: underline;
+}
+.PresentationContainer {
+  text-align: center;
+}
+.Name {
+  font-family: 'Source Code Pro', monospace;
+  color: #fff;
+}
+.Line {
+  font-family: 'Source Code Pro', monospace;
+  color: #fff;
+  width: 12px;
+}
+.TypingSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.TypingSectionContainer {
+  display: flex;
+  flex-direction: row;
+}
+.SocialContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.SocialIcon {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 7px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.SocialIcon:hover {
+  transform: scale(1.1);
+}
+.CentralPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DonateButton {
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 7px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: #4c4545;
+  border-radius: 30px;
+}
+.DonateButton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.ButtonContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.DonateName {
+  font-family: 'Source Code Pro', monospace;
+  color: #fff;
+  padding-left: 4px;
+}
+a {
+  text-decoration: none;
+}
+.Address {
+  color: #fff !important;
+}
+.ModalContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(34 34 34);
+}
+.CloseButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.CloseButton:hover {
+  cursor: pointer;
+}
+.react-responsive-modal-modal {
+  background-color: rgb(34 34 34) !important;
+  border-radius: 10px;
+}
+.QrCode {
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+}
+.ImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
